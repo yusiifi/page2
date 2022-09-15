@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mainbody-ss{
+    .mainbody-ssright{
+        
+        .mainbody-cardiv{
+            display: block;
+            .car-ssimage{
+                margin-bottom: 20px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    margin-bottom: 0%;
+                    vertical-align: middle;
+
+                }
+            }
+            .car-sstitle{
+                margin-bottom: 5px;
+                i{
+                    color: #db2d2e;
+                    display: table-cell;
+                    width: 30px;
+                    font-size: 20px;
+                }
+                h3{
+                    a{
+                        font-size: 18px;
+                        font-style: normal;
+                        line-height: 24px;
+                        color: #363636;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        display: block;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color: #db2d2e;
+                        transition: all 0.5s ease-in-out;
+                    }
+                    
+                }
+            }
+            .car-ssdate{
+                margin-bottom: 15px;
+                .dates-class{
+                    margin: 0%;
+                    padding: 0%;
+                    padding-left: 0px;
+                    li{
+                        line-height: 24px;
+                        padding: 0%;
+                        margin: 0%;
+                        a{
+                            i{
+                                color: #db2d2e;
+                            }
+                            text-decoration: none;
+                            color: #999999;
+                            padding-right: 10px;
+                            margin-bottom: 5px;
+                        }
+                        a:hover{
+                            color: #db2d2e;
+                            transition: all 0.5s ease-in-out;
+                        }
+                    }
+
+                }
+            }
+            .car-ssparagraph{
+                p{
+                    margin-bottom: 10px;
+                    font-family: Open Sans, Arial, Helvetica, sans-serif;
+                    font-weight: 400;
+                    text-transform: none;
+                    font-size: 14px;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    color: #999999;
+                }
+            }
+            .car-ssbutton{
+                a{
+                    &.first-aas{
+                        margin-bottom: 0px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        text-align: center;
+                        border: 0px solid transparent;
+                        background: #db2d2e;
+                        color: #ffffff;
+                        display: block;
+                        text-transform: capitalize;
+                        
+                        padding: 0px 0px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
